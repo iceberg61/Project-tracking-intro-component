@@ -129,6 +129,7 @@ a {text-decoration: none;}
     opacity: 0.6;
     transform: translate(-2.5rem, -50% );
 }
+.primary-navigation .nav-items .nav-links:hover {text-decoration: underline; cursor: pointer;}
 .nav-toggle , .btn-span {display: none;}
 
 /* utility colors */
@@ -168,6 +169,7 @@ button {
     margin-inline-end: .4rem;
 }
 
+button:hover {opacity: .8;}
 .illustration-devices {transform: scale(1.5) translateX(20%);}
 
 @media screen and (max-width: 768px){
